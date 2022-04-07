@@ -19,6 +19,6 @@ function backSpace(){
 
 function confirma(){
      if( resultado.textContent != 'erro' ){
-         document.getElementById('resultado').innerHTML = eval()
+         document.getElementById('resultado').innerHTML = eval(resultado.innerHTML)
      }
 }
